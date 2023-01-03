@@ -1,5 +1,7 @@
 # React-Grid-Layout
 
+## Forked From [React-Grid-Layout](https://github.com/react-grid-layout/react-grid-layout)
+
 [![travis build](https://travis-ci.org/STRML/react-grid-layout.svg?branch=master)](https://travis-ci.org/STRML/react-grid-layout)
 [![CDNJS](https://img.shields.io/cdnjs/v/react-grid-layout.svg)](https://cdnjs.com/libraries/react-grid-layout)
 [![npm package](https://img.shields.io/npm/v/react-grid-layout.svg?style=flat-square)](https://www.npmjs.org/package/react-grid-layout)
@@ -21,19 +23,24 @@ RGL is React-only and does not require jQuery.
 
 ## Table of Contents
 
-- [Demos](#demos)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Responsive Usage](#responsive-usage)
-- [Providing Grid Width](#providing-grid-width)
-- [Grid Layout Props](#grid-layout-props)
-- [Responsive Grid Layout Props](#responsive-grid-layout-props)
-- [Grid Item Props](#grid-item-props)
-- [User Recipes](../../wiki/Users-recipes)
-- [Performance](#performance)
-- [Contribute](#contribute)
-- [TODO List](#todo-list)
+- [React-Grid-Layout](#react-grid-layout)
+  - [Forked From React-Grid-Layout](#forked-from-react-grid-layout)
+  - [Table of Contents](#table-of-contents)
+  - [Demos](#demos)
+      - [Projects Using React-Grid-Layout](#projects-using-react-grid-layout)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Usage without Browserify/Webpack](#usage-without-browserifywebpack)
+    - [Responsive Usage](#responsive-usage)
+    - [Providing Grid Width](#providing-grid-width)
+    - [Grid Layout Props](#grid-layout-props)
+    - [Responsive Grid Layout Props](#responsive-grid-layout-props)
+    - [Grid Item Props](#grid-item-props)
+    - [Performance](#performance)
+    - [Custom Child Components and Draggable Handles](#custom-child-components-and-draggable-handles)
+  - [Contribute](#contribute)
+  - [TODO List](#todo-list)
 
 ## Demos
 

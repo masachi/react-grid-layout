@@ -1,6 +1,6 @@
 {
   "name": "@masachi/react-grid-layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A draggable and resizable grid layout with responsive breakpoints, for React.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:STRML/react-grid-layout.git"
+    "url": "git@github.com:masachi/react-grid-layout.git"
   },
   "keywords": [
     "react",
@@ -30,12 +30,13 @@
     "fluid",
     "responsive"
   ],
-  "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
+  "author": "Masachi Zhang <zhangjb42@gmail.com>",
+  "root-author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/STRML/react-grid-layout/issues"
+    "url": "https://github.com/masachi/react-grid-layout/issues"
   },
-  "homepage": "https://github.com/STRML/react-grid-layout",
+  "homepage": "https://github.com/masachi/react-grid-layout",
   "dependencies": {
     "clsx": "^1.1.1",
     "lodash.isequal": "^4.0.0",

@@ -101,6 +101,7 @@ export default class ReactGridLayout extends React.Component<Props, State> {
     verticalCompact: true,
     compactType: "vertical",
     preventCollision: false,
+    ignoreClickOnly: false,
     droppingItem: {
       i: "__dropping-elem__",
       h: 1,
@@ -320,12 +321,13 @@ export default class ReactGridLayout extends React.Component<Props, State> {
    * @param {Event} e The mousedown event
    * @param {Element} node The current dragging DOM element
    */
-  onDragStop: (i: string, x: number, y: number, GridDragEvent) => void = (
-    i,
-    x,
-    y,
-    { e, node }
-  ) => {
+  onDragStop(
+    i: string,
+    x: number,
+    y: number,
+    { e, node }: GridDragEvent
+  ): void {
+    // Shouldn't happen as `onDrag` fires immediately after `onDragStart`
     if (!this.state.activeDrag) return;
 
     const { oldDragItem } = this.state;
@@ -551,6 +553,7 @@ export default class ReactGridLayout extends React.Component<Props, State> {
       isDraggable,
       isResizable,
       isBounded,
+      ignoreClickOnly,
       useCSSTransforms,
       transformScale,
       draggableCancel,
@@ -597,6 +600,7 @@ export default class ReactGridLayout extends React.Component<Props, State> {
         isBounded={bounded}
         useCSSTransforms={useCSSTransforms && mounted}
         usePercentages={!mounted}
+        ignoreClickOnly={ignoreClickOnly}
         transformScale={transformScale}
         w={l.w}
         h={l.h}
@@ -617,7 +621,10 @@ export default class ReactGridLayout extends React.Component<Props, State> {
     );
   }
 
-  // Called while dragging an element. Part of browser native drag/drop API.
+  //
+  // Droppable functionality
+  //
+  // Called while dragging an external element into the grid. Part of browser native drag/drop API.
   // Native event target might be the layout itself, or an element within the layout.
   onDragOver: DragOverEvent => void | false = e => {
     e.preventDefault(); // Prevent any browser native action
@@ -706,6 +713,8 @@ export default class ReactGridLayout extends React.Component<Props, State> {
     }
   };
 
+  // Called when dragover ends or goes out of the grid area.
+  // Removes the virtual placeholder.
   removeDroppingPlaceholder: () => void = () => {
     const { droppingItem, cols } = this.props;
     const { layout } = this.state;

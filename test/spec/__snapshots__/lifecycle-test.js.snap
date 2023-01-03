@@ -595,6 +595,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           </div>,
         }
       }
+      ignoreClickOnly={false}
       isBounded={false}
       isDraggable={true}
       isDroppable={false}
@@ -799,6 +800,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={2}
           handle=""
           i="0"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -971,6 +973,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={2}
           handle=""
           i="1"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -1143,6 +1146,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={3}
           handle=""
           i="2"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -1315,6 +1319,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={3}
           handle=""
           i="3"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -1487,6 +1492,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={3}
           handle=""
           i="4"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -1659,6 +1665,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={4}
           handle=""
           i="5"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -1831,6 +1838,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={4}
           handle=""
           i="6"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -2003,6 +2011,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={5}
           handle=""
           i="7"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -2175,6 +2184,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={5}
           handle=""
           i="8"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -2347,6 +2357,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={5}
           handle=""
           i="9"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -2519,6 +2530,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={2}
           handle=""
           i="10"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -2691,6 +2703,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={2}
           handle=""
           i="11"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -2863,6 +2876,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={2}
           handle=""
           i="12"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -3035,6 +3049,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={3}
           handle=""
           i="13"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -3207,6 +3222,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={3}
           handle=""
           i="14"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -3379,6 +3395,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={3}
           handle=""
           i="15"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -3551,6 +3568,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={4}
           handle=""
           i="16"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -3723,6 +3741,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={4}
           handle=""
           i="17"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -3895,6 +3914,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={5}
           handle=""
           i="18"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -4067,6 +4087,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           h={5}
           handle=""
           i="19"
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isResizable={true}
@@ -9484,6 +9505,705 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Null items in list 1`] = `
     </GridItem>
   </div>
 </ReactGridLayout>
+exports[`Lifecycle tests <ReactGridLayout> Callbacks Calls onDrag with correct props 1`] = `
+Array [
+  Object {
+    "h": 5,
+    "i": "0",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": true,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 0,
+    "y": 2,
+  },
+  Object {
+    "h": 2,
+    "i": "1",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 2,
+    "y": 0,
+  },
+  Object {
+    "h": 2,
+    "i": "2",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 4,
+    "y": 0,
+  },
+  Object {
+    "h": 2,
+    "i": "3",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 6,
+    "y": 0,
+  },
+  Object {
+    "h": 3,
+    "i": "4",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 8,
+    "y": 0,
+  },
+  Object {
+    "h": 3,
+    "i": "5",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 10,
+    "y": 0,
+  },
+  Object {
+    "h": 3,
+    "i": "6",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": true,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 0,
+    "y": 6,
+  },
+  Object {
+    "h": 4,
+    "i": "7",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 2,
+    "y": 2,
+  },
+  Object {
+    "h": 4,
+    "i": "8",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 4,
+    "y": 2,
+  },
+  Object {
+    "h": 5,
+    "i": "9",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 6,
+    "y": 2,
+  },
+  Object {
+    "h": 5,
+    "i": "10",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 8,
+    "y": 3,
+  },
+  Object {
+    "h": 5,
+    "i": "11",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 10,
+    "y": 3,
+  },
+  Object {
+    "h": 2,
+    "i": "12",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": true,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 0,
+    "y": 9,
+  },
+  Object {
+    "h": 2,
+    "i": "13",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 2,
+    "y": 6,
+  },
+  Object {
+    "h": 2,
+    "i": "14",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 4,
+    "y": 6,
+  },
+  Object {
+    "h": 3,
+    "i": "15",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 6,
+    "y": 7,
+  },
+  Object {
+    "h": 3,
+    "i": "16",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 8,
+    "y": 8,
+  },
+  Object {
+    "h": 3,
+    "i": "17",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 10,
+    "y": 8,
+  },
+  Object {
+    "h": 4,
+    "i": "18",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": true,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 0,
+    "y": 11,
+  },
+  Object {
+    "h": 4,
+    "i": "19",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 2,
+    "y": 8,
+  },
+]
+`;
+
+exports[`Lifecycle tests <ReactGridLayout> Callbacks Calls onDrag with correct props 2`] = `
+Object {
+  "h": 5,
+  "i": "0",
+  "placeholder": true,
+  "w": 2,
+  "x": 0,
+  "y": 0,
+}
+`;
+
+exports[`Lifecycle tests <ReactGridLayout> Callbacks Calls onDragStop with correct props 1`] = `
+Array [
+  Object {
+    "h": 5,
+    "i": "0",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": true,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 0,
+    "y": 2,
+  },
+  Object {
+    "h": 2,
+    "i": "1",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 2,
+    "y": 0,
+  },
+  Object {
+    "h": 2,
+    "i": "2",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 4,
+    "y": 0,
+  },
+  Object {
+    "h": 2,
+    "i": "3",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 6,
+    "y": 0,
+  },
+  Object {
+    "h": 3,
+    "i": "4",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 8,
+    "y": 0,
+  },
+  Object {
+    "h": 3,
+    "i": "5",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 10,
+    "y": 0,
+  },
+  Object {
+    "h": 3,
+    "i": "6",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": true,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 0,
+    "y": 6,
+  },
+  Object {
+    "h": 4,
+    "i": "7",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 2,
+    "y": 2,
+  },
+  Object {
+    "h": 4,
+    "i": "8",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 4,
+    "y": 2,
+  },
+  Object {
+    "h": 5,
+    "i": "9",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 6,
+    "y": 2,
+  },
+  Object {
+    "h": 5,
+    "i": "10",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 8,
+    "y": 3,
+  },
+  Object {
+    "h": 5,
+    "i": "11",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 10,
+    "y": 3,
+  },
+  Object {
+    "h": 2,
+    "i": "12",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": true,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 0,
+    "y": 9,
+  },
+  Object {
+    "h": 2,
+    "i": "13",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 2,
+    "y": 6,
+  },
+  Object {
+    "h": 2,
+    "i": "14",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 4,
+    "y": 6,
+  },
+  Object {
+    "h": 3,
+    "i": "15",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 6,
+    "y": 7,
+  },
+  Object {
+    "h": 3,
+    "i": "16",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 8,
+    "y": 8,
+  },
+  Object {
+    "h": 3,
+    "i": "17",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 10,
+    "y": 8,
+  },
+  Object {
+    "h": 4,
+    "i": "18",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": true,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 0,
+    "y": 11,
+  },
+  Object {
+    "h": 4,
+    "i": "19",
+    "isBounded": undefined,
+    "isDraggable": undefined,
+    "isResizable": undefined,
+    "maxH": undefined,
+    "maxW": undefined,
+    "minH": undefined,
+    "minW": undefined,
+    "moved": false,
+    "resizeHandles": undefined,
+    "static": false,
+    "w": 2,
+    "x": 2,
+    "y": 8,
+  },
+]
 `;
 
 exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
@@ -10694,6 +11414,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>,
             }
           }
+          ignoreClickOnly={false}
           isBounded={false}
           isDraggable={true}
           isDroppable={false}
@@ -11182,6 +11903,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={2}
               handle=""
               i="0"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -11354,6 +12076,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={3}
               handle=""
               i="1"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -11526,6 +12249,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={4}
               handle=""
               i="2"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -11698,6 +12422,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={5}
               handle=""
               i="3"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -11870,6 +12595,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={2}
               handle=""
               i="4"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -12042,6 +12768,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={3}
               handle=""
               i="5"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -12214,6 +12941,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={5}
               handle=""
               i="6"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -12386,6 +13114,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={2}
               handle=""
               i="7"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -12558,6 +13287,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={3}
               handle=""
               i="8"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -12730,6 +13460,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={4}
               handle=""
               i="9"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -12902,6 +13633,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={5}
               handle=""
               i="10"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={false}
               isResizable={false}
@@ -13079,6 +13811,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={2}
               handle=""
               i="11"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -13251,6 +13984,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={3}
               handle=""
               i="12"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -13423,6 +14157,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={4}
               handle=""
               i="13"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -13595,6 +14330,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={5}
               handle=""
               i="14"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -13767,6 +14503,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={2}
               handle=""
               i="15"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -13939,6 +14676,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={3}
               handle=""
               i="16"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -14111,6 +14849,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={5}
               handle=""
               i="17"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -14283,6 +15022,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={2}
               handle=""
               i="18"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -14455,6 +15195,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={3}
               handle=""
               i="19"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -14627,6 +15368,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={4}
               handle=""
               i="20"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -14799,6 +15541,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={5}
               handle=""
               i="21"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={false}
               isResizable={false}
@@ -14976,6 +15719,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={2}
               handle=""
               i="22"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -15148,6 +15892,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={3}
               handle=""
               i="23"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}
@@ -15320,6 +16065,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               h={4}
               handle=""
               i="24"
+              ignoreClickOnly={false}
               isBounded={false}
               isDraggable={true}
               isResizable={true}

@@ -1,8 +1,12 @@
 name: "changelog"
+# on:
+#   push:
+#     tags:
+#       - "*"
+
 on:
-  push:
-    tags:
-      - "*"
+  # (optional) Run workflow manually
+  workflow_dispatch:
 
 jobs:
   release:
